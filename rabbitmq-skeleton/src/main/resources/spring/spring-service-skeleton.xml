@@ -67,6 +67,7 @@
         <property name="concurrentConsumers" value="3" />
         <property name="maxConcurrentConsumers" value="10" />
         <property name="transactionManager" ref="transactionManager" />
+        <property name="consumerTagStrategy" ref="transactionManager" />
     </bean>
 
 
