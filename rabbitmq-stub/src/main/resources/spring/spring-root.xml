@@ -20,6 +20,7 @@
     <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
 
 
+    <import resource="spring-dao.xml" />
     <import resource="spring-web.xml" />
     <import resource="spring-rabbitmq-stub.xml" />
 
